@@ -1,0 +1,278 @@
+{
+  "products": [
+    {
+      "slug": "costume-milano",
+      "nameFr": "Costume Milano",
+      "nameAr": "بدلة ميلانو",
+      "descFr": "Costume deux pièces coupe slim en laine peignée. Épaules structurées, doublure satinée et tombé impeccable pour les grandes occasions.",
+      "descAr": "بدلة من قطعتين بقصة ضيقة من الصوف الممشط. أكتاف مبنية وبطانة ساتانية وإطلالة راقية للمناسبات الكبرى.",
+      "price": 24500,
+      "category": "costumes",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        { "name": "Anthracite", "nameAr": "فحمي", "hex": "#2E2E2E" },
+        { "name": "Bleu nuit", "nameAr": "أزرق ليلي", "hex": "#20304A" }
+      ],
+      "stock": 12,
+      "featured": true
+    },
+    {
+      "slug": "costume-alger-lin",
+      "nameFr": "Costume Alger en Lin",
+      "nameAr": "بدلة الجزائر كتان",
+      "descFr": "Costume léger en lin respirant, pensé pour les étés algériens. Élégance décontractée du bureau au dîner.",
+      "descAr": "بدلة خفيفة من الكتان المسامي مصممة لصيف الجزائر. أناقة عصرية من المكتب إلى العشاء.",
+      "price": 21000,
+      "category": "costumes",
+      "sizes": ["M", "L", "XL"],
+      "colors": [
+        { "name": "Beige", "nameAr": "بيج", "hex": "#C9B79C" },
+        { "name": "Olive", "nameAr": "زيتوني", "hex": "#6B6B47" }
+      ],
+      "stock": 8,
+      "featured": false
+    },
+    {
+      "slug": "chemise-oxford",
+      "nameFr": "Chemise Oxford",
+      "nameAr": "قميص أكسفورد",
+      "descFr": "La chemise Oxford essentielle en coton tissé. Col boutonné, coupe régulière, à porter en toute saison.",
+      "descAr": "قميص أكسفورد الأساسي من القطن المنسوج. ياقة بأزرار وقصة معتدلة تناسب كل المواسم.",
+      "price": 5900,
+      "category": "chemises",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        { "name": "Blanc", "nameAr": "أبيض", "hex": "#FAFAFA" },
+        { "name": "Ciel", "nameAr": "سماوي", "hex": "#AFC6D8" }
+      ],
+      "stock": 30,
+      "featured": true
+    },
+    {
+      "slug": "chemise-lin-blanc",
+      "nameFr": "Chemise en Lin",
+      "nameAr": "قميص كتان",
+      "descFr": "Chemise en pur lin lavé, tombé fluide et toucher naturel. La pièce fraîche du vestiaire estival.",
+      "descAr": "قميص من الكتان المغسول الخالص بملمس طبيعي وانسدال ناعم. قطعة منعشة لخزانة الصيف.",
+      "price": 6800,
+      "category": "chemises",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        { "name": "Blanc", "nameAr": "أبيض", "hex": "#FAFAFA" },
+        { "name": "Sable", "nameAr": "رملي", "hex": "#D8C9AD" }
+      ],
+      "stock": 22,
+      "featured": false
+    },
+    {
+      "slug": "robe-soiree-nuit",
+      "nameFr": "Robe de Soirée Nuit",
+      "nameAr": "فستان سهرة",
+      "descFr": "Robe longue de soirée au drapé sculptural. Une silhouette intemporelle pour les réceptions et les fêtes.",
+      "descAr": "فستان سهرة طويل بانسدال نحتي. إطلالة خالدة لحفلات الاستقبال والمناسبات.",
+      "price": 15900,
+      "category": "robes",
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": [
+        { "name": "Noir", "nameAr": "أسود", "hex": "#1A1A1A" },
+        { "name": "Bordeaux", "nameAr": "خمري", "hex": "#5E2130" }
+      ],
+      "stock": 10,
+      "featured": true
+    },
+    {
+      "slug": "robe-satin-perle",
+      "nameFr": "Robe Satin Perle",
+      "nameAr": "فستان ساتان لؤلؤي",
+      "descFr": "Robe mi-longue en satin nacré, ceinture fine et reflets délicats. L'élégance discrète des cocktails.",
+      "descAr": "فستان متوسط الطول من الساتان اللؤلؤي بحزام رفيع ولمعان رقيق. أناقة هادئة لحفلات الكوكتيل.",
+      "price": 13500,
+      "category": "robes",
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": [
+        { "name": "Ivoire", "nameAr": "عاجي", "hex": "#EFE7D6" },
+        { "name": "Rose poudré", "nameAr": "وردي فاتح", "hex": "#D8B9AE" }
+      ],
+      "stock": 9,
+      "featured": false
+    },
+    {
+      "slug": "abaya-royale",
+      "nameFr": "Abaya Royale",
+      "nameAr": "عباية ملكية",
+      "descFr": "Abaya fluide en crêpe premium, finitions main et broderie discrète au poignet. Confort et prestance.",
+      "descAr": "عباية انسيابية من الكريب الفاخر بلمسات يدوية وتطريز راقٍ عند المعصم. راحة وحضور.",
+      "price": 12900,
+      "category": "abayas",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        { "name": "Noir", "nameAr": "أسود", "hex": "#1A1A1A" },
+        { "name": "Émeraude", "nameAr": "زمردي", "hex": "#1F4A3F" }
+      ],
+      "stock": 14,
+      "featured": true
+    },
+    {
+      "slug": "kaftan-tlemcen",
+      "nameFr": "Kaftan Tlemcen",
+      "nameAr": "قفطان تلمسان",
+      "descFr": "Kaftan d'apparat inspiré du patrimoine de Tlemcen, fil doré et velours profond. Pièce de cérémonie.",
+      "descAr": "قفطان احتفالي مستوحى من تراث تلمسان بخيوط ذهبية ومخمل غني. قطعة للمناسبات.",
+      "price": 18500,
+      "category": "abayas",
+      "sizes": ["S", "M", "L"],
+      "colors": [
+        { "name": "Bordeaux", "nameAr": "خمري", "hex": "#5E2130" },
+        { "name": "Vert impérial", "nameAr": "أخضر إمبراطوري", "hex": "#20463B" }
+      ],
+      "stock": 6,
+      "featured": true
+    },
+    {
+      "slug": "pantalon-chino",
+      "nameFr": "Pantalon Chino",
+      "nameAr": "سروال شينو",
+      "descFr": "Chino en coton stretch, coupe droite confortable. Le pantalon polyvalent du quotidien élégant.",
+      "descAr": "سروال شينو من القطن المطاطي بقصة مستقيمة مريحة. السروال العملي للإطلالة اليومية الأنيقة.",
+      "price": 6500,
+      "category": "pantalons",
+      "sizes": ["30", "32", "34", "36", "38"],
+      "colors": [
+        { "name": "Beige", "nameAr": "بيج", "hex": "#C9B79C" },
+        { "name": "Bleu nuit", "nameAr": "أزرق ليلي", "hex": "#20304A" },
+        { "name": "Olive", "nameAr": "زيتوني", "hex": "#6B6B47" }
+      ],
+      "stock": 25,
+      "featured": false
+    },
+    {
+      "slug": "pantalon-tailleur",
+      "nameFr": "Pantalon Tailleur",
+      "nameAr": "سروال رسمي",
+      "descFr": "Pantalon de tailleur à pli marqué, tissu infroissable. La rigueur du bureau sans compromis sur le confort.",
+      "descAr": "سروال رسمي بكسرة واضحة من قماش مقاوم للتجعّد. رسمية المكتب دون التنازل عن الراحة.",
+      "price": 7900,
+      "category": "pantalons",
+      "sizes": ["30", "32", "34", "36"],
+      "colors": [
+        { "name": "Charbon", "nameAr": "فحمي", "hex": "#2E2E2E" },
+        { "name": "Noir", "nameAr": "أسود", "hex": "#1A1A1A" }
+      ],
+      "stock": 18,
+      "featured": false
+    },
+    {
+      "slug": "manteau-cachemire",
+      "nameFr": "Manteau Cachemire",
+      "nameAr": "معطف كشمير",
+      "descFr": "Manteau long en mélange cachemire, chaleur légère et ligne épurée. L'investissement hiver par excellence.",
+      "descAr": "معطف طويل من مزيج الكشمير، دفء خفيف وخطوط نقية. استثمار الشتاء بامتياز.",
+      "price": 22900,
+      "category": "manteaux",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        { "name": "Camel", "nameAr": "جملي", "hex": "#A67B5B" },
+        { "name": "Charbon", "nameAr": "فحمي", "hex": "#2E2E2E" }
+      ],
+      "stock": 7,
+      "featured": true
+    },
+    {
+      "slug": "trench-classique",
+      "nameFr": "Trench Classique",
+      "nameAr": "معطف ترنش كلاسيكي",
+      "descFr": "Trench-coat intemporel en gabardine, double boutonnage et ceinture. Une allure qui traverse les modes.",
+      "descAr": "معطف ترنش خالد من الغابردين بأزرار مزدوجة وحزام. إطلالة تتجاوز الموضة.",
+      "price": 17500,
+      "category": "manteaux",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        { "name": "Beige", "nameAr": "بيج", "hex": "#C9B79C" },
+        { "name": "Noir", "nameAr": "أسود", "hex": "#1A1A1A" }
+      ],
+      "stock": 11,
+      "featured": false
+    },
+    {
+      "slug": "jupe-midi-plisse",
+      "nameFr": "Jupe Midi Plissée",
+      "nameAr": "تنورة ميدي مطوية",
+      "descFr": "Jupe midi plissée au mouvement fluide, taille haute. Féminine et facile à associer.",
+      "descAr": "تنورة ميدي مطوية بحركة انسيابية وخصر عالٍ. أنثوية وسهلة التنسيق.",
+      "price": 8900,
+      "category": "robes",
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": [
+        { "name": "Camel", "nameAr": "جملي", "hex": "#A67B5B" },
+        { "name": "Noir", "nameAr": "أسود", "hex": "#1A1A1A" }
+      ],
+      "stock": 13,
+      "featured": false
+    },
+    {
+      "slug": "ceinture-cuir",
+      "nameFr": "Ceinture en Cuir",
+      "nameAr": "حزام جلد",
+      "descFr": "Ceinture en cuir pleine fleur, boucle laiton mate. Une finition qui signe la tenue.",
+      "descAr": "حزام من الجلد الطبيعي بإبزيم نحاسي مطفي. لمسة أخيرة تُكمل الإطلالة.",
+      "price": 3500,
+      "category": "accessoires",
+      "sizes": ["S", "M", "L"],
+      "colors": [
+        { "name": "Marron", "nameAr": "بني", "hex": "#5A3A24" },
+        { "name": "Noir", "nameAr": "أسود", "hex": "#1A1A1A" }
+      ],
+      "stock": 40,
+      "featured": false
+    },
+    {
+      "slug": "echarpe-laine",
+      "nameFr": "Écharpe en Laine",
+      "nameAr": "وشاح صوف",
+      "descFr": "Écharpe douce en laine mérinos, tissage serré et franges nettes. La chaleur discrète des matins frais.",
+      "descAr": "وشاح ناعم من صوف الميرينو بنسيج محكم وأطراف أنيقة. دفء هادئ لصباحات الشتاء.",
+      "price": 4200,
+      "category": "accessoires",
+      "sizes": ["Unique"],
+      "colors": [
+        { "name": "Crème", "nameAr": "كريمي", "hex": "#EFE7D6" },
+        { "name": "Gris", "nameAr": "رمادي", "hex": "#8A8A82" },
+        { "name": "Camel", "nameAr": "جملي", "hex": "#A67B5B" }
+      ],
+      "stock": 35,
+      "featured": false
+    },
+    {
+      "slug": "pochette-cuir",
+      "nameFr": "Pochette en Cuir",
+      "nameAr": "حقيبة يد جلدية",
+      "descFr": "Pochette structurée en cuir grainé, fermeture aimantée. Compacte pour l'essentiel des soirées.",
+      "descAr": "حقيبة يد مبنية من الجلد المحبب بإغلاق مغناطيسي. مدمجة لأساسيات السهرات.",
+      "price": 5900,
+      "category": "accessoires",
+      "sizes": ["Unique"],
+      "colors": [
+        { "name": "Fauve", "nameAr": "بني فاتح", "hex": "#B08054" },
+        { "name": "Noir", "nameAr": "أسود", "hex": "#1A1A1A" }
+      ],
+      "stock": 20,
+      "featured": false
+    }
+  ],
+  "orders": [
+    { "reference": "WS-7K2A9F", "fullName": "Yacine Benali", "phone": "0550123456", "wilayaCode": 16, "deliveryType": "home", "address": "Cité 200 logements, Bt C, Bab Ezzouar", "status": "delivered", "daysAgo": 34, "items": [ { "slug": "costume-milano", "size": "L", "color": "Anthracite", "quantity": 1 }, { "slug": "chemise-oxford", "size": "L", "color": "Blanc", "quantity": 2 } ] },
+    { "reference": "WS-3M8T1P", "fullName": "Amina Cherifi", "phone": "0661447788", "wilayaCode": 31, "deliveryType": "stopdesk", "address": null, "status": "delivered", "daysAgo": 29, "items": [ { "slug": "abaya-royale", "size": "M", "color": "Noir", "quantity": 1 } ] },
+    { "reference": "WS-9QW4ZE", "fullName": "Sofiane Haddad", "phone": "0770991122", "wilayaCode": 25, "deliveryType": "home", "address": "Rue Larbi Ben M'hidi, Constantine centre", "status": "delivered", "daysAgo": 24, "items": [ { "slug": "manteau-cachemire", "size": "M", "color": "Camel", "quantity": 1 }, { "slug": "echarpe-laine", "size": "Unique", "color": "Crème", "quantity": 1 } ] },
+    { "reference": "WS-5B1C7H", "fullName": "Lina Boukhalfa", "phone": "0555778899", "wilayaCode": 9, "deliveryType": "stopdesk", "address": null, "status": "shipped", "daysAgo": 12, "items": [ { "slug": "robe-satin-perle", "size": "S", "color": "Ivoire", "quantity": 1 } ] },
+    { "reference": "WS-2E6R8N", "fullName": "Karim Ould Ali", "phone": "0698112233", "wilayaCode": 6, "deliveryType": "home", "address": "Village Iheddaden, Béjaïa", "status": "delivered", "daysAgo": 18, "items": [ { "slug": "kaftan-tlemcen", "size": "M", "color": "Bordeaux", "quantity": 1 } ] },
+    { "reference": "WS-8Y3U5D", "fullName": "Nour El Houda", "phone": "0540334455", "wilayaCode": 19, "deliveryType": "stopdesk", "address": null, "status": "confirmed", "daysAgo": 6, "items": [ { "slug": "robe-soiree-nuit", "size": "M", "color": "Noir", "quantity": 1 }, { "slug": "pochette-cuir", "size": "Unique", "color": "Noir", "quantity": 1 } ] },
+    { "reference": "WS-4A7S2W", "fullName": "Riad Belkacem", "phone": "0666554433", "wilayaCode": 31, "deliveryType": "home", "address": "Hai Es Salam, Oran", "status": "confirmed", "daysAgo": 4, "items": [ { "slug": "costume-alger-lin", "size": "L", "color": "Beige", "quantity": 1 }, { "slug": "ceinture-cuir", "size": "M", "color": "Marron", "quantity": 1 } ] },
+    { "reference": "WS-1F9G6J", "fullName": "Meriem Saïdi", "phone": "0779887766", "wilayaCode": 15, "deliveryType": "stopdesk", "address": null, "status": "pending", "daysAgo": 2, "items": [ { "slug": "jupe-midi-plisse", "size": "S", "color": "Camel", "quantity": 1 }, { "slug": "chemise-lin-blanc", "size": "S", "color": "Blanc", "quantity": 1 } ] },
+    { "reference": "WS-6H2K4L", "fullName": "Abdelhak Ziani", "phone": "0551002003", "wilayaCode": 5, "deliveryType": "home", "address": "Cité Kaïdi, Batna", "status": "pending", "daysAgo": 1, "items": [ { "slug": "trench-classique", "size": "L", "color": "Beige", "quantity": 1 } ] },
+    { "reference": "WS-0P5X8V", "fullName": "Sara Mansouri", "phone": "0662228844", "wilayaCode": 16, "deliveryType": "stopdesk", "address": null, "status": "pending", "daysAgo": 1, "items": [ { "slug": "abaya-royale", "size": "L", "color": "Émeraude", "quantity": 1 }, { "slug": "echarpe-laine", "size": "Unique", "color": "Gris", "quantity": 1 } ] },
+    { "reference": "WS-3T7Y1Q", "fullName": "Walid Rahmani", "phone": "0770556677", "wilayaCode": 23, "deliveryType": "home", "address": "Zone Sidi Amar, Annaba", "status": "shipped", "daysAgo": 9, "items": [ { "slug": "pantalon-tailleur", "size": "32", "color": "Charbon", "quantity": 2 } ] },
+    { "reference": "WS-9C4B2M", "fullName": "Imene Ferhat", "phone": "0559443322", "wilayaCode": 16, "deliveryType": "home", "address": "Résidence les Pins, Hydra, Alger", "status": "cancelled", "daysAgo": 15, "items": [ { "slug": "robe-soiree-nuit", "size": "S", "color": "Bordeaux", "quantity": 1 } ] },
+    { "reference": "WS-2Z6N8K", "fullName": "Bilal Toumi", "phone": "0663117722", "wilayaCode": 31, "deliveryType": "stopdesk", "address": null, "status": "delivered", "daysAgo": 21, "items": [ { "slug": "chemise-oxford", "size": "M", "color": "Ciel", "quantity": 3 } ] },
+    { "reference": "WS-7L3D5R", "fullName": "YasmineKaci", "phone": "0778443311", "wilayaCode": 6, "deliveryType": "home", "address": "Rue de la Liberté, Béjaïa", "status": "confirmed", "daysAgo": 3, "items": [ { "slug": "manteau-cachemire", "size": "S", "color": "Charbon", "quantity": 1 }, { "slug": "pochette-cuir", "size": "Unique", "color": "Fauve", "quantity": 1 } ] }
+  ]
+}

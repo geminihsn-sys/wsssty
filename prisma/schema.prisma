@@ -1,0 +1,81 @@
+// Walid Style — Prisma schema (SQLite)
+// SQLite has no native enums or array columns, so list-like fields (sizes,
+// colors, images) are stored as JSON strings and parsed at the app boundary.
+// Status / category / deliveryType are plain strings validated against the
+// constants in src/lib/constants.ts.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  nameFr      String
+  nameAr      String
+  descFr      String
+  descAr      String
+  price       Int // price in Algerian Dinar (DA), stored as whole dinars
+  category    String // e.g. "costumes", "robes", "abayas"
+  sizes       String // JSON string: string[]  e.g. ["S","M","L"]
+  colors      String // JSON string: {name,nameAr,hex}[]
+  images      String // JSON string: string[] of image URLs/paths
+  stock       Int      @default(0)
+  featured    Boolean  @default(false)
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  orderItems  OrderItem[]
+
+  @@index([category])
+  @@index([featured])
+}
+
+model Order {
+  id           String      @id @default(cuid())
+  reference    String      @unique // human-friendly, e.g. "WS-2A9F3K"
+  fullName     String
+  phone        String
+  wilayaCode   Int
+  wilayaName   String
+  deliveryType String // "home" | "stopdesk"
+  address      String? // required for home delivery
+  subtotal     Int // sum of item prices * qty, in DA
+  shipping     Int // delivery fee in DA
+  total        Int // subtotal + shipping
+  status       String      @default("pending") // pending|confirmed|shipped|delivered|cancelled
+  notes        String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  items        OrderItem[]
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+
+  // Snapshot of the product at purchase time (so historical orders are stable
+  // even if the product is later edited or deleted).
+  nameFr    String
+  nameAr    String
+  price     Int
+  size      String
+  color     String?
+  quantity  Int     @default(1)
+
+  @@index([orderId])
+  @@index([productId])
+}

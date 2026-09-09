@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="Walid Style editorial">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDE6D8"/>
+      <stop offset="1" stop-color="#E0D6C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <!-- faint vertical drape lines -->
+  <g stroke="#CBBFA6" stroke-width="1" opacity="0.6">
+    <line x1="150" y1="0" x2="150" y2="1200"/>
+    <line x1="300" y1="0" x2="300" y2="1200"/>
+    <line x1="450" y1="0" x2="450" y2="1200"/>
+    <line x1="600" y1="0" x2="600" y2="1200"/>
+    <line x1="750" y1="0" x2="750" y2="1200"/>
+  </g>
+  <!-- stylised long-coat figure -->
+  <g fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="450" cy="250" r="60"/>
+    <path d="M 450 310 C 360 340 350 360 350 420 L 330 760 C 330 800 360 810 380 810 L 380 1060 L 520 1060 L 520 810 C 540 810 570 800 570 760 L 550 420 C 550 360 540 340 450 310 Z"/>
+    <line x1="450" y1="340" x2="450" y2="1000"/>
+    <path d="M 350 430 L 300 720"/>
+    <path d="M 550 430 L 600 720"/>
+    <path d="M 300 720 L 335 735"/>
+    <path d="M 600 720 L 565 735"/>
+  </g>
+  <rect x="40" y="40" width="820" height="1120" fill="none" stroke="#1A1A1A" stroke-width="1" opacity="0.35"/>
+</svg>

@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/*  Base                                                               */
+/* ------------------------------------------------------------------ */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans;
+    font-feature-settings: "kern", "liga";
+  }
+
+  /* Latin headings use the serif display face. */
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+
+  /* Arabic switches the whole document to the Arabic face; the serif
+     display latin face has no Arabic glyphs, so headings follow suit. */
+  html[lang="ar"] body,
+  html[lang="ar"] h1,
+  html[lang="ar"] h2,
+  html[lang="ar"] h3,
+  html[lang="ar"] h4 {
+    @apply font-arabic;
+  }
+
+  /* Visible keyboard focus everywhere (accessibility floor). */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ink ring-offset-2 ring-offset-cream;
+  }
+
+  ::selection {
+    background: #1a1a1a;
+    color: #f5f2eb;
+  }
+
+  /* Respect reduced-motion preferences. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Components / utilities                                             */
+/* ------------------------------------------------------------------ */
+@layer components {
+  .container-content {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8 lg:px-12;
+  }
+
+  /* Tracked-out micro label used for eyebrows / section markers. */
+  .eyebrow {
+    @apply text-[0.7rem] uppercase tracking-widest text-ink-soft;
+  }
+
+  /* A quiet, tailored bordered surface — squared corners echo garment edges. */
+  .surface {
+    @apply bg-offwhite border border-line;
+  }
+
+  /* Underline-on-hover link, direction-aware. */
+  .link-underline {
+    @apply relative inline-block;
+  }
+  .link-underline::after {
+    content: "";
+    @apply absolute bottom-[-2px] left-0 h-px w-0 bg-current transition-all duration-300 ease-refined;
+  }
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+  [dir="rtl"] .link-underline::after {
+    @apply left-auto right-0;
+  }
+}
+
+/* Hide scrollbar utility for horizontal chip rows. */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

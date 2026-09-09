@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Costume Alger en Lin">
+  <rect width="600" height="800" fill="#1A1A1A"/>
+  <rect x="24" y="24" width="552" height="752" fill="none" stroke="#4A463F" stroke-width="1"/>
+  <text x="300" y="86" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="7" fill="#F5F2EB">WALID STYLE</text>
+  <line x1="270" y1="104" x2="330" y2="104" stroke="#4A463F" stroke-width="1"/>
+  
+    <g stroke="#F5F2EB" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+      <path d="M 300 300 q -18 4 -18 22 q 0 14 18 18"/>
+      <path d="M 300 358 L 180 430 L 420 430 Z"/>
+      <line x1="150" y1="430" x2="450" y2="430"/>
+    </g>
+  <text x="300" y="620" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F5F2EB">Costume Alger en Lin</text>
+  <text x="300" y="662" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="4" fill="#F5F2EB" opacity="0.6">VUE ATELIER</text>
+</svg>
