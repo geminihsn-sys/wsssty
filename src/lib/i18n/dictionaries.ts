@@ -306,9 +306,9 @@ const fr = {
   },
 } as const;
 
-export type Dictionary = typeof fr;
+export type Dictionary = Record<string, any>;
 
-const ar: Dictionary = {
+const ar = {
   common: {
     currency: "DA",
     loading: "جارٍ التحميل…",
