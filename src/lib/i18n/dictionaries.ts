@@ -310,7 +310,7 @@ export type Dictionary = typeof fr;
 
 const ar: Dictionary = {
   common: {
-    currency: "دج",
+    currency: "DA",
     loading: "جارٍ التحميل…",
     error: "حدث خطأ ما.",
     retry: "إعادة المحاولة",
